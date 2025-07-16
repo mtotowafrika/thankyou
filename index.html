@@ -3,124 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank You from Mtoto Wafrika</title>
+    <title>Mtoto W'afrika - Newsletter Hub</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Caveat&family=Trebuchet+MS&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
       rel="stylesheet" />
     <style>
       body {
         margin: 0;
         padding: 0;
         background-color: #f4f4f4;
-        font-family: "Trebuchet MS", sans-serif;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
       }
       .container {
         max-width: 600px;
-        margin: 0 auto;
+        width: 100%;
+        margin: 20px;
         background-color: #ffffff;
-        border: 1px solid #dddddd;
-        border-radius: 5px;
-        overflow: hidden; /* Ensures the curved bottom of the image is respected */
-      }
-      .header {
-        background-color: #d9232d; /* Red */
-        color: #ffffff; /* White */
-        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         text-align: center;
+        border-radius: 10px;
+        overflow: hidden;
       }
       .header h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 38px;
+        font-weight: 700;
+        color: #222222;
         margin: 0;
-        font-size: 28px;
+        padding: 30px 20px;
       }
-      .content {
-        text-align: left;
-      }
-      .content-text {
-        padding: 30px;
-      }
-      .content p {
-        font-size: 16px;
-        line-height: 1.6;
-        color: #333333; /* Dark Gray */
-      }
-      .content img {
+      .main-image img {
         max-width: 100%;
         height: auto;
-        display: block; /* Removes extra space below the image */
-        border-radius: 0 0 70px 70px; /* Curves the bottom of the image */
+        display: block;
       }
-      .footer {
-        background-color: #000000; /* Very Black */
-        color: #ffffff;
-        text-align: center;
-        font-size: 16px;
+      .button-hub {
+        padding: 40px 20px;
       }
-      .footer p {
-        margin: 5px 0;
-      }
-      .footerdiv {
-        padding: 20px;
-      }
-      .footer a {
-        color: #f9c74f; /* Yellow */
+      .button {
+        display: block;
+        padding: 15px 20px;
+        margin: 15px auto;
+        border-radius: 5px;
         text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        max-width: 300px;
+        transition: transform 0.2s;
       }
-      .scripture {
-        font-family: "Caveat", cursive;
-        background-color: #ffffff;
-        font-size: 16px;
-        padding: 20px;
-        color: #168529; /* A nice blue */
-        margin-top: 15px;
+      .button:hover {
+        transform: scale(1.05);
+      }
+      .btn-general {
+        background-color: #d9232d; /* Red */
+        color: #ffffff;
+      }
+      .btn-sponsor {
+        background-color: #f9c74f; /* Yellow */
+        color: #222222;
+      }
+      .btn-new-month {
+        background-color: #222222; /* Black */
+        color: #ffffff;
+      }
+      h1 {
+        background-color: #000000;
+        color: #ffffff !important;
       }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>Thank You for Your Generosity!</h1>
+        <h1>MTOTO NEWSLETTERS</h1>
       </div>
-      <div class="content">
+      <div class="main-image">
         <img src="photo.jpg" alt="Children of Mtoto Wafrika" />
-        <div class="content-text">
-          <p>Dear [Sponsor's Name],</p>
-          <p>
-            Thank you for your generous support of Mtoto W'afrika Child Care
-            Ministries. Your sponsorship makes a tangible difference, investing
-            in the well-being, education, and future of the children we serve.
-          </p>
-          <p>
-            We are deeply grateful for your partnership and the positive impact
-            it creates.
-          </p>
-          <p>
-            Sincerely,<br />Mtoto W'afrika Child Care Ministries<br />Child
-            Sponsorship Department
-          </p>
-        </div>
       </div>
-      <div class="footer">
-        <div class="footerdiv">
-          <p><strong>Mtoto Wafrika Child Care Ministries</strong></p>
-          <p>
-            <a href="https://www.mtotowafrikauganda.org"
-              >www.mtotowafrikauganda.org</a
-            >
-          </p>
-          <p>
-            Email:
-            <a href="mailto:info@mtotowafrikauganda.org"
-              >info@mtotowafrikauganda.org</a
-            >
-          </p>
-          <p>Phone: +256 781 548123</p>
-        </div>
-        <p class="scripture">
-          "Learn to do good. Seek justice. Help the oppressed. Defend the cause
-          of orphans. Fight for the rights of widows."<br />- Isaiah 1:17 NLT
-        </p>
+      <div class="button-hub">
+        <a href="general_thank_you.html" class="button btn-general"
+          >General Thank You</a
+        >
+        <a href="sponsor_thank_you.html" class="button btn-sponsor"
+          >Sponsor Thank You</a
+        >
+        <a href="new_month_greeting.html" class="button btn-new-month"
+          >New Month Greeting</a
+        >
       </div>
     </div>
   </body>
